@@ -1,0 +1,21 @@
+[Desktop Entry]
+Name=Eitaa Desktop
+Comment=Official desktop version of Eitaa messaging app
+TryExec=/usr/bin/Eitaa
+Exec=/usr/bin/Eitaa -- %u
+Icon=eitaa
+Terminal=false
+StartupWMClass=EitaaDesktop
+Type=Application
+Categories=Chat;Network;InstantMessaging;Qt;
+MimeType=x-scheme-handler/et;
+Keywords=et;chat;im;messaging;messenger;sms;etdesktop;
+Actions=Quit;
+SingleMainWindow=true
+X-GNOME-UsesNotifications=true
+X-GNOME-SingleWindow=true
+
+[Desktop Action Quit]
+Exec=/usr/bin/Eitaa -quit
+Name=Quit Eitaa
+Icon=application-exit
