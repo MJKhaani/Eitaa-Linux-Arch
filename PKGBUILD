@@ -1,4 +1,4 @@
-# Maintainer: Ased Mammad <mammad.ased@gmail.com>
+# Maintainer: Mohammad Javad Khaani <mjkhaani@hotmail.com>
 
 pkgname=Eitaa-Linux
 pkgver=4.1.6
@@ -11,7 +11,7 @@ provides=('Eitaa')
 arch=('x86_64')
 url="https://eitaa.com"
 source=(
-	"Eitaa-linux-4.1.6.tar.xz::https://eitaa.com/app/desktop/linux"
+	"Eitaa-linux-4.1.6.tar.xz::https://eitaa.com/app/linux"
 	"eitaa.png"
 	"com.eitaa.desktop"
 )
